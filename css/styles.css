@@ -431,23 +431,24 @@ body {
   fill: #f4f4fd;
 }
 
-.subscribe-form {
+.subscribe-div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  gap: 16px;
 }
 
-.subscribe-label {
+.subscribe-text {
   color: #ffffff;
   font-weight: 500;
+  margin-bottom: 16px;
 }
 
-.subscribe-div {
+.subscribe-form {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  gap: 24px;
 }
 
 .subscribe-input {
@@ -459,7 +460,6 @@ body {
   height: 40px;
   width: 264px;
   padding-left: 16px;
-  margin-right: 24px;
   font-size: 12px;
   line-height: inherit;
 }
